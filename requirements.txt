@@ -1,0 +1,8 @@
+facenet_pytorch==2.6.0
+fastapi[standard]==0.138.0
+opencv-python==4.11.0.86
+Pillow==10.2.0
+pydantic==2.13.4
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.4.77
