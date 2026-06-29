@@ -7,13 +7,15 @@ API sẽ được chạy trên http://127.0.0.1/
 
 # API
 
-POST /upload
+POST /match
 
 Input:
 Field Type
 image1 Image
 image2 Image
 
-Output:
-{ "status": "OCCLUDED" }
-{ "status": "NOT_OCCLUDED" }
+Output:  
+{  
+ "status": "SUCCESS",  
+ "match": true  
+}
